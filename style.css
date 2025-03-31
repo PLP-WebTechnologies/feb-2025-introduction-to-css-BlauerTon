@@ -1,0 +1,39 @@
+/* Selector 1: Element selector (body) */
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #e8ecef; 
+    margin: 20px; 
+    padding: 15px; 
+}
+
+/* Selector 2: Class selector (.main-title) */
+.main-title {
+    color: #c0392b; 
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+    margin-bottom: 25px; 
+    padding: 10px;
+    border-bottom: 3px solid #e74c3c; 
+}
+
+/* Selector 3: ID selector (#intro-text) */
+#intro-text {
+    color: #2d3436; 
+    font-size: 18px;
+    line-height: 1.5; 
+    margin: 20px 0; 
+    padding: 12px;
+    border: 1px dashed #636e72; 
+}
+
+/* Styling the image with a class */
+.styled-image {
+    width: 300px;
+    height: auto;
+    margin: 25px auto; 
+    padding: 8px;
+    border: 4px solid #e74c3c; 
+    display: block; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
